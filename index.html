@@ -12,11 +12,24 @@
   crossorigin="anonymous"
    >
 <body>
+<!-- As a link -->
+<nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">HUNGRY SOUL EMAILING</a>
+  </div>
+</nav>
 
+<!-- As a heading -->
+<nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <span class="navbar-brand mb-0 h1">Reading Mode</span>
+  </div>
+</nav>
   <div class="container">
     <div class="row">
       <div class="col-md-2 " id="menu-col">
        
+<!-- Inbox bar -->
 
         <div class="list-group">
           <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
@@ -33,7 +46,7 @@
         </div>
 
       </div>
-      <div class="col-xs-12 col-md-7 col-xl-5" id="inbox-col">
+      <div class="col-xs-none col-md-5 col-xl-7" id="inbox-col">
         <form class="d-flex">
           <div class="btn-group" id=nav-dropdown>
             
@@ -50,6 +63,35 @@
               <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
             </svg></i></button>
         </form>
+
+        <!-- Email list-->
+
+        <div class="card" style="width: 25rem;">
+          <div class="card-body">
+            <h5 class="card-title">Fuzymarge</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Meeting at the zoo</h6>
+          </div>
+        </div>
+        <div class="card" style="width: 25rem;">
+          <div class="card-body">
+            <h5 class="card-title">Kale Martini</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Serving drinks at the Wedding</h6>
+          </div>
+        </div>
+        <div class="card" style="width: 25rem;">
+          <div class="card-body">
+            <h5 class="card-title">Dale Vitz</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Talks about the Ritz</h6>
+          </div>
+        </div>
+        <div class="card" style="width: 25rem;">
+          <div class="card-body">
+            <h5 class="card-title">Mandy Parks</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Issue of RECKS Time Dinner</h6>
+          </div>
+        </div>
+
+      <!--removing email list
         <div class="list-group" id="list-tab" role="tablist">
           <a class="list-group-item list-group-item-action active" id="list-email1-list" data-bs-toggle="list"
             href="#list-email1" role="tab" aria-controls="list-email1"><Light>Fuzy Marge</Light> <br> Meeting at The Zoo</a>
@@ -64,6 +106,11 @@
              </a>
                 </div>
                    </div>
+                  -->
+
+
+
+                <!-- Open Email -->
            <div class="col-xs-12" id="message-box">
               <div class="tab-content" id="nav-tabContent">
                 <div class="tab-pane fade show active" id="list-email1" role="tabpanel" aria-labelledby="list-email1-list">
@@ -75,22 +122,8 @@
                       we will have lunch ready to go. If you could meet this would be fantastic!!
                     </p>
           </div>
-          <div class="tab-pane" id="list-email2" role="tabpanel" aria-labelledby="list-email2-list">
-            <h3><strong>Subject: Ritz Conversation Time</strong></h3>
-            
-
-          </div>
- 
-          <div class="tab-pane" id="list-email3" role="tabpanel" aria-labelledby="list-email3-list">
-            <h3><strong>Subject: Issue of the drinks Served    </strong></h3>
-
-
-          </div>
-          <div class="tab-pane" id="list-email4" role="tabpanel" aria-labelledby="list-email4-list">
-            <h3><strong>Subject: Wedding invite list</strong></h3>
-
-
-          </div>
+          
+          <!-- Reply bars -->
           <div class="form-group">
             <textarea class="form-control" rows="8" placeholder="Reply here"></textarea>
             <div class="btn-group" id="reply-buttons" role="group" aria-label="email-button-group">
